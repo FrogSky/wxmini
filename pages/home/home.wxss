@@ -1,0 +1,54 @@
+page{
+  padding: 10px 0;
+}
+.position{
+  background-color: #ffffff;
+  box-shadow: 0 0 3px #4FC1A7;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: 14px;
+  width: 95%;
+  margin: 0 auto 15px;
+  position: relative;
+}
+.slogan{
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 50%;
+  margin-top: -35px;
+  border-radius: 3px;
+}
+.description{
+  width: calc(100% - 84px);
+  padding-left: 84px;
+}
+.desc-l{
+  float: left;
+}
+.desc-r{
+  float: right;
+  font-size: 16px;
+  color: #4FC1A7;
+  line-height: 16px;
+}
+.posName{
+  width: 80%;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  text-overflow: ellipsis;
+}
+.desc{
+  color: #333;
+  font-size: 12px;
+  margin-bottom: 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.opendate{
+  font-size: 10px;
+  color: #888;
+}

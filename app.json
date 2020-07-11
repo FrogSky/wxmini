@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/jobdetail/jobdetail",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "蜂蜂蜂嗡嗡嗡",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#ffffff",
+    "selectedColor": "#fff100",
+    "borderStyle": "white",
+    "backgroundColor": "#4FC1A7",
+    "list": [
+      {
+        "pagePath": "pages/jobdetail/jobdetail",
+        "text": "页面1",
+        "iconPath": "./images/code-cloud-callback-config.png",
+        "selectedIconPath": "./images/code-cloud-callback-config.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "页面2",
+        "iconPath": "./images/code-cloud-callback-config.png",
+        "selectedIconPath": "./images/code-cloud-callback-config.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

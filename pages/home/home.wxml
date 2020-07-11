@@ -1,0 +1,16 @@
+<!--pages/home/home.wxml-->
+<block wx:for="{{imgList}}" wx:key="url">
+  <view class="position" bind:tap="tabshow">
+    
+      <image class="slogan" mode="scaleToFill" src="{{item.url}}"></image>
+      <view class="description">
+        <view class="posName">{{item.posName}}</view>
+        <view class="desc">
+          <span class="desc-l">{{item.desc}}</span>
+          <span class="desc-r">{{item.money}}</span>
+        </view>
+        <view class="opendate">搞怪日：{{item.opendate}}</view>
+      </view>
+  </view>
+</block>
+

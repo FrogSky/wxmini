@@ -1,0 +1,33 @@
+<!-- <view class="header">详情</view> -->
+<block>
+  <view class="jobtitle">{{jobTitle}}</view>
+  <view class="line"></view>
+  <view>
+    <view class="jobmsg">
+      <span class="jobmsg-item"><i class="iconfont iconrmb"></i> {{rmb}}</span>
+      <span class="jobmsg-item"><i class="iconfont iconweizhi"></i> {{weizhi}}</span>
+      <span class="jobmsg-item"><i class="iconfont iconshijian"></i> 全职</span>
+      
+    </view>
+    <view class="jobmsg">
+      <span class="jobmsg-item"><i class="iconfont iconzhiwei"></i> {{xuewei}}</span>
+      <span class="jobmsg-item"><i class="iconfont iconxuewei"></i> {{xueli}}</span>
+    </view>
+    <view class="tabscard-con">
+      职位特色：
+      <block wx:for="{{tabs}}" wx:key="item">
+        <span class="tabscard">{{item}}</span>
+      </block>
+    </view>
+  </view>
+  <view class="line"></view>
+</block>
+<block>
+  <view class="job-desc">职位描述</view>
+  <view class="job-description">{{jobDescription}}</view>
+</block>
+<block>
+  <view class="ilike">
+    <button class="ilikeyou" type="primary" bind:tap="ilike">点点你~</button>
+  </view>
+</block>
